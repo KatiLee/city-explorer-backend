@@ -12,4 +12,4 @@ const maxCacheTime = 1000 * 60 * 60;
 
 setInterval(clearCache, maxCacheTime);
 
-module.exports = cahce;
+module.exports = cache;
