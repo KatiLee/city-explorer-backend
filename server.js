@@ -7,7 +7,8 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-let data = require('./data/weather.json');
+// let data = require('./data/weather.json');
+
 const Weather = require('./modules/weather');
 const Movie = require('./modules/movie');
 // const Yelp = require('./modules/yelp');
