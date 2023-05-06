@@ -15,7 +15,7 @@ class Movie {
         }
     }
 }
-Movie.movieReq = async (req, res) => {
+Movie.reqMovie = async (req, res) => {
     try {
     let cityName = req.query.cityname.toLowerCase();
     let returnObject = [];
@@ -55,4 +55,4 @@ Movie.movieReq = async (req, res) => {
 }
 };
 
-module.exports = Movie;
+module. exports = Movie;

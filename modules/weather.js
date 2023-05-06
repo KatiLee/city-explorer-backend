@@ -23,10 +23,10 @@ class Weather {
     }
 }
 
-Weather.weatherReq = async (req, res) => {
+Weather.reqWeather = async (req, res) => {
     try {
-        let cityLat = req.query.citylat;
-        let cityLon = req.query.citylon;
+        let cityLat = req.query.lat;
+        let cityLon = req.query.lon;
         let cityName = req.query.cityname.toLowerCase();
         let returnArray = [];
 
